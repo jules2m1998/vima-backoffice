@@ -1,24 +1,32 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Vima backoffice",
+  "name": "VIMA_BACKOFFICE",
+  "description": "The backoffice of the plateform vima ",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "vima.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "logo-mini.png",
+      "sizes": "144x144",
+      "type": "image/png"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "logo-medium.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "prefer_related_applications": false,
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

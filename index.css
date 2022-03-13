@@ -1,0 +1,173 @@
+:root{
+    --regular-font: 'Source Sans Pro', sans-serif;
+    --red: #FF5353;
+    --dark-blue: #293241;
+    --light-blue: #87939C;
+    --dark-gray: rgb(102, 102, 102);
+    --normal-text-size: 1.5rem;
+    --medium-text-size: 1.7rem;
+    --medium-text-size-2: 2.5rem;
+    --big-text-size: 4rem;
+    --grid-width: 1200px;
+  }
+  
+  /* CSS OF SLIDER*/
+  .slider {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+  }
+  
+  .slider--content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .slider--feature {
+    text-align: center;
+  }
+  
+  .feature--title {
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .feature--text {
+    font-size: 1rem;
+    color: #fff;
+    margin: 1rem 0;
+  }
+  
+  .slider__btn-right,
+  .slider__btn-left {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 4rem;
+    color: #eee;
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .feature__btn {
+    background: #fff;
+    text-transform: uppercase;
+    color: #444;
+    border: 1px solid #444;
+    outline: none;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+  }
+  
+  .slider__btn-left:hover,
+  .slider__btn-right:hover {
+    transform: scale(0.95);
+  }
+  
+  /**END**/
+  
+  .item-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .index-item-center {
+    padding-top: 10%;
+    margin: auto;
+  }
+  
+  .price {
+    color: var(--red);
+    font-size: var(--medium-text-size);
+  }
+  
+  .container {
+    width: var(--grid-width)
+  }
+  
+  .priceZone {
+    text-align: center;
+  }
+  
+  .titleMission {
+    font-size: var(--medium-text-size-2);
+    font-weight: bolder;
+  }
+  
+  .detailMission strong {
+    color: var(--light-blue);
+    font-weight: lighter;
+  }
+  
+  .missionCard {
+    width: 100%;
+    padding: 25px;
+    margin: 25px 10px 25px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(51, 51, 51, 0.15);
+    background-color: #ffffff;
+  }
+  
+  .missionCard:hover {
+    box-shadow: 0 2px 8px rgba(51, 51, 51, 0.25);
+  }
+  
+  /* OVERRIDE ANDT DESIGN DEFAULT COLORS */
+  .ant-steps-item-active .ant-steps-item-icon {
+    background: var(--red);
+    border-color: var(--red);
+    color: #ffffff;
+  }
+  
+  .ant-steps-item-finish .ant-steps-item-icon {
+    background: #ffffff;
+    border-color: var(--red);
+    color: var(--red)
+  }
+  
+  .ant-steps-icon .anticon {
+    color: var(--red);
+  }
+  
+  .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+    background-color: var(--red);
+  }
+  
+  /* END */
+  
+  /* Remove box shadow on input from knacss */
+  input {
+    box-shadow: none;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--regular-font);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .container {
+      width: 95%;
+    }
+    .missionCard {
+      width: 99%;
+      text-align: center;
+    }
+  }
+  
