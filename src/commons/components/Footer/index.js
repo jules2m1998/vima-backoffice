@@ -1,1 +1,1 @@
-export {default} from "./Footer.module.css";
+export {default} from "./Footer.jsx";

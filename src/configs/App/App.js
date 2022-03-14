@@ -1,6 +1,6 @@
 import React from 'react';
 import Routes from "../../routes";
-import LoginPage from '../../pages/CommonModule/Login';
+//import LoginPage from '../../pages/CommonModule/Login';
 import axios from "axios";
 import {useDispatch} from "react-redux";
 import {logoutAction} from "../../redux/AuthReducer";
