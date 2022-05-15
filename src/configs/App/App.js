@@ -4,6 +4,10 @@ import LoginPage from '../../pages/CommonModule/Login';
 import axios from "axios";
 import {useDispatch} from "react-redux";
 import {logoutAction} from "../../redux/AuthReducer";
+import HomePage from '../../pages/CommonModule/Home/HomePage';
+import Logout from '../../pages/CommonModule/Login/Logout';
+import Login from '../../pages/CommonModule/Login';
+
 
 const App = () => {
 
@@ -41,8 +45,7 @@ const App = () => {
 
   return (
       <>
-        {/* <Routes/> */}
-        <LoginPage />
+        <Routes/>
       </>
   );
 

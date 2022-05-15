@@ -63,16 +63,22 @@
     outline: none;
 }
 
-.section .contentBx .formBx .inputBx input[type='submit'] {
+.section .contentBx .formBx .inputBx button[type='submit'] {
     background: #449CF8;
     color: #fff;
     outline: none;
     border: 10px 20px;
     font-weight: 500;
     cursor: pointer;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    outline: none;
+    
 }
 
-.section .contentBx .formBx .inputBx input[type='submit']:hover {
+.section .contentBx .formBx .inputBx button[type='submit']:hover {
     background: #176BC4;
 }
 

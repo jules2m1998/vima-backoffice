@@ -85,10 +85,10 @@ export const getUser = () => async dispatch => {
 };
 
 
-export const currentUserSelector = state => state.auth.currentUser;
+export const currentUserSelector = (state) => state.auth.currentUser;
 export const userInfoSelector = state => state.auth.userInfo;
 export const errorLoginSelector = state => state.auth.errorLogin;
 export const tokenSelector = state => state.auth.token;
 export const connectedSelector = state => state.auth.connected;
-const {loginSuccess, logoutSuccess, loadUser,  loginFailed} = authSlice.actions;
+export const {loginSuccess, logoutSuccess, loadUser,  loginFailed} = authSlice.actions;
 export const authReducer = authSlice.reducer;
