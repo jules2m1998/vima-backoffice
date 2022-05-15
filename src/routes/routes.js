@@ -68,8 +68,8 @@ const Routes = () => {
                                         />
                                 ))
                             ))};
-                            <Route exact path="/" component={Home}/>
-                            <Route component={NotFound} />
+                            <Route exact path="/" component={Login}/>
+                            <Route component={Home} />
                         </Switch>
                     </LastLocationProvider>
                 </Suspense>
